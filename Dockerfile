@@ -13,3 +13,4 @@ RUN go get github.com/golang/protobuf/protoc-gen-go
 ADD . /go/src/github.com/windmilleng/abc123/fe
 RUN go install github.com/windmilleng/abc123/fe
 ENTRYPOINT /go/bin/fe
+
